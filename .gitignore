@@ -1,0 +1,35 @@
+# Environments
+venv/
+env/
+.env
+
+# Datasets and Models
+*.csv
+*.json
+*.pt
+*.bin
+*.h5
+*.safetensors
+models/
+datasets/
+data/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Datasets
+*.csv
+deberta_engagement_dataset.csv
+
+# Trained Models and Checkpoints
+deberta_engagement_model/
+deberta_final_attempt/
+final_engagement_model/
+final_engagement_model2/
+imdb_engagement_model/
+my_engagement_model/
+
+# Python Cache (Standard practice to ignore these)
+__pycache__/
+*.pyc
